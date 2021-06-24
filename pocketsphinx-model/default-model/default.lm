@@ -1,0 +1,42 @@
+# SPDX-FileCopyrightText: Copyright (c) 1999-2016 Carnegie Mellon University. All rights reserved.
+#
+# SPDX-License-Identifier: MIT-CMU
+
+Language model created by QuickLM on Wed Apr 14 11:15:02 EDT 2021
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 1 sentences and 6 words
+
+\data\
+ngram 1=6
+ngram 2=5
+ngram 3=4
+
+\1-grams:
+-1.0792 </s> -0.3010
+-1.0792 <s> -0.2632
+-1.0792 BOT -0.2632
+-1.0792 HEALTH -0.2632
+-1.0792 HEY -0.2632
+-1.0792 PATIENT -0.2632
+
+\2-grams:
+-0.3010 <s> HEY 0.0000
+-0.3010 BOT </s> -0.3010
+-0.3010 HEALTH BOT 0.0000
+-0.3010 HEY PATIENT 0.0000
+-0.3010 PATIENT HEALTH 0.0000
+
+\3-grams:
+-0.3010 <s> HEY PATIENT
+-0.3010 HEALTH BOT </s>
+-0.3010 HEY PATIENT HEALTH
+-0.3010 PATIENT HEALTH BOT
+
+\end\

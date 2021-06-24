@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: Copyright (c) 1999-2016 Carnegie Mellon University. All rights reserved.
+#
+# SPDX-License-Identifier: MIT-CMU
+
+LtoS pronounce: verbosity is 1
+BOT - By LtoS rules
+HEALTH - Main 
+HEY - Main 
+PATIENT - Main 
+
