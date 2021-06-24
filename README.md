@@ -1,17 +1,11 @@
-## My Project
+## Simplify patient care with a custom voice assistant using Amazon Lex
 
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+This GitHub repository contains code meant to be used in the blog Simplify patient care with a custom voice assistant using Amazon Lex. Please follow the instructions in the blog to set up your AWS and local environment.
 
 ## Security
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+See CONTRIBUTING for more information
 
 ## License
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
-
