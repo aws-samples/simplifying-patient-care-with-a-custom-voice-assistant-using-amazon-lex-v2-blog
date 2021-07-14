@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: get_patient_data.lambda_handler
       Runtime: python3.8
-      CodeUri: 'https://aws-ml-blog.s3.amazonaws.com/artifacts/get_patient_data.py.zip'
+      CodeUri: 's3://aws-ml-blog/artifacts/simplifying-patient-care-using-custom-voice-assistant/get_patient_data.py.zip'
       Role: !GetAtt GetPatientDataRole.Arn
       Timeout: 30
       Environment:
