@@ -77,7 +77,7 @@ def get_sensor_value(sensor_type, query_result):
     value = ''
     for item in query_result:
         if item['TIMESTAMP']['S'] == latest:
-            value = json.loads(item['DATA']['S'])[sensor_type.replace(" ", "_")]
+            value = json.loads(item['DATA']['S'])[sensor_type.replace(" ", "_").lower()]
     return value
 
 def elicit_slot(session_state, slot_to_elicit, message):
